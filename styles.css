@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: grey;
+}
+
+header {
+    background-color: black;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: black;
+}
+
+.logo img {
+    height: 75px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: white; /* Set the text color to white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.intro {
+    background-image: url('C:\Users\acer\Downloads\bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 2rem; /* Adjust padding to fit the content */
+    color: white; /* Set text color to white for contrast */
+}
+
+.intro-text {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text readability */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 0.05rem;
+    color: white;
+}
+
+.intro p {
+    font-size: 0.75rem;
+    color: whitw;
+    margin-bottom: 1.5rem;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 0.005rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
